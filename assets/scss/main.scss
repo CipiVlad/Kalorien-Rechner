@@ -49,6 +49,15 @@ form {
         margin-left: 30%;
         width: 100%;
         border-style: none;
+
+        td {
+            padding: 5px;
+        }
+
+        tr:nth-of-type(1) {
+            background-color: rgb(86, 188, 239);
+
+        }
     }
 
 

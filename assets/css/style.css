@@ -69,5 +69,11 @@ form table {
   width: 100%;
   border-style: none;
 }
+form table td {
+  padding: 5px;
+}
+form table tr:nth-of-type(1) {
+  background-color: rgb(86, 188, 239);
+}
 
 /*# sourceMappingURL=style.css.map */
