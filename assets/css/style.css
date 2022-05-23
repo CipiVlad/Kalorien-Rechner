@@ -1,0 +1,73 @@
+/* =================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+/* =================================== */
+/* 
+(Oder statt left und right = 0
+Mit with:100%) */
+/* Sticky Navbar */
+/* ======================
+    article - grid areas
+========================*/
+/* ======================
+section - flex in grid
+========================*/
+/* offset-x | offset-y | blur-radius | color */
+body {
+  font-family: sans-serif;
+}
+
+form {
+  background: linear-gradient(rgba(205, 212, 7, 0.8) 10%, rgba(239, 9, 9, 0) 85%);
+  width: 50%;
+  margin: 2vh auto;
+  padding: 10vh 0;
+  text-align: center;
+  border-radius: 20%;
+}
+form label,
+form input,
+form table,
+form select {
+  display: block;
+  margin: 0 auto;
+  color: rgb(134, 148, 134);
+  padding: 1% 1%;
+  border-radius: 10px;
+  text-align: center;
+}
+form h1,
+form p {
+  color: rgb(104, 89, 89);
+  margin: 3vh;
+}
+form button {
+  margin: 3vh auto;
+  padding: 1vh 2vh;
+  border-style: none;
+  background-color: darkgoldenrod;
+  border-radius: 4px;
+  color: lightgoldenrodyellow;
+}
+form table {
+  margin-left: 30%;
+  width: 100%;
+  border-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */

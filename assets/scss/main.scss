@@ -1,0 +1,57 @@
+// sass --watch assets/scss/main.scss assets/css/style.css
+
+@import "_generals.scss";
+@import "_mixin.scss";
+@import "_variables.scss";
+
+body {
+    font-family: sans-serif;
+}
+
+form {
+
+    background: linear-gradient(rgba(205, 212, 7, 0.8) 10%, rgba(239, 9, 9, 0) 85%);
+    width: 50%;
+    margin: 2vh auto;
+    padding: 10vh 0;
+    text-align: center;
+    border-radius: 20%;
+
+    label,
+    input,
+    table,
+    select {
+        display: block;
+        margin: 0 auto;
+        color: rgb(134, 148, 134);
+        padding: 1% 1%;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    h1,
+    p {
+        color: rgb(104, 89, 89);
+        margin: 3vh
+    }
+
+
+    button {
+        margin: 3vh auto;
+        padding: 1vh 2vh;
+        border-style: none;
+        background-color: darkgoldenrod;
+        border-radius: 4px;
+        color: lightgoldenrodyellow;
+    }
+
+    table {
+        margin-left: 30%;
+        width: 100%;
+        border-style: none;
+    }
+
+
+
+
+}
